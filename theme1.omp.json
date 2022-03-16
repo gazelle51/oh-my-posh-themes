@@ -10,7 +10,7 @@
           "properties": {
             "template": " {{ .UserName }} "
           },
-          "leading_diamond": "\ue0b0",
+          "leading_diamond": "<transparent,#01579B>\ue0b0</>",
           "style": "diamond",
           "trailing_diamond": "\ue0b0",
           "type": "session"
