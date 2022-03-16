@@ -77,7 +77,7 @@
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_mode": "files",
-            "fetch_virtual_env": false,
+            "fetch_virtual_env": true,
             "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} "
           },
           "style": "powerline",
