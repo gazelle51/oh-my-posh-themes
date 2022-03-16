@@ -159,10 +159,10 @@
           "foreground": "#ffffff",
           "properties": {
             "always_enabled": true,
-            "template": "{{ if gt .Code 0 }}\uf525{{ else }}\u2665{{ end }}"
+            "template": "<parentBackground>\ue0b0</> {{ if gt .Code 0 }}\uf525{{ else }}\u2665{{ end }}"
           },
           "style": "diamond",
-          "trailing_diamond": "\ue0b0",
+          "trailing_diamond": "\ue0b4",
           "type": "exit"
         }
       ],
