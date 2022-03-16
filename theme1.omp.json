@@ -146,23 +146,23 @@
           "foreground": "#ffffff",
           "properties": {
             "always_enabled": true,
-            "template": "<transparent>\ue0b0</> \ufbab{{ .FormattedMs }}\u2800"
+            "template": "<transparent>\ue0b0</> \ufbab {{ .FormattedMs }} "
           },
           "style": "plain",
           "type": "executiontime"
         },
         {
-          "background": "#00897b",
+          "background": "#62e073",
           "background_templates": [
-            "{{ if gt .Code 0 }}#e91e63{{ end }}"
+            "{{ if gt .Code 0 }}#e03a3a{{ end }}"
           ],
           "foreground": "#ffffff",
           "properties": {
             "always_enabled": true,
-            "template": "<parentBackground>\ue0b0</> \ue23a "
+            "template": "{{ if gt .Code 0 }}\uf525{{ else }}\u2665{{ end }}"
           },
           "style": "diamond",
-          "trailing_diamond": "\ue0b4",
+          "trailing_diamond": "\ue0b0",
           "type": "exit"
         }
       ],
@@ -174,7 +174,7 @@
           "background": "#2e9599",
           "foreground": "#111111",
           "invert_powerline": true,
-          "leading_diamond": "\ue0b2",
+          "leading_diamond": "\ue0b6",
           "properties": {
             "template": " {{ .CurrentDate | date .Format }} "
           },
