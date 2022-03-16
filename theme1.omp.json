@@ -7,11 +7,11 @@
         {
           "background": "#61AFEF",
           "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
           "properties": {
             "template": " {{ .UserName }} "
           },
-          "style": "powerline",
+          "leading_diamond": "\ue0b0",
+          "style": "diamond",
           "trailing_diamond": "\ue0b0",
           "type": "session"
         },
@@ -152,7 +152,7 @@
             "template": "<parentBackground>\ue0b0</> {{ if gt .Code 0 }}\uf525{{ else }}\u2665{{ end }} "
           },
           "style": "diamond",
-          "trailing_diamond": "\ue0b4",
+          "trailing_diamond": "\ue0b0",
           "type": "exit"
         }
       ],
