@@ -16,7 +16,7 @@
           "type": "session"
         },
         {
-          "background": "#C678DD",
+          "background": "#c386f1",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
